@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Filters';
+
+  position = {
+    lat: -34.681,
+    lng: -58.371
+  };
+
+  label = {
+    color: 'blue',
+    text: 'Aqui es un punto OP'
+  };
 }
